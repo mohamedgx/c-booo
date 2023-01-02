@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.d-block, .carousel-inner{
+    height: 450px;
+    width: 90% !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    right: -4%;
+    /* padding-top: 5%; */
+}
+
+/* .carousel-inner .d-block {
+    width: 90%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+} */
+.a1 ,.a2 ,.a3 ,.a4{
+    width: 250px;
+    height: 120px;
+
+}
+.card-body .a1 ,.a2 ,.a3 ,.a4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 110px;
+    margin-bottom:50px;
+}
+@media only screen and (max-width:500px){
+    .d-block{
+        height: 450px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .a1 ,.a2 ,.a3 ,.a4{
+        width: 250px;
+        height: 120px;
+    
+    }
+    .card-body .a1 ,.a2 ,.a3 ,.a4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 40px;
+    }
+    .container4{
+        position: relative;
+       left: 9%;
+    }
+}
+.row{
+    padding-top: 20px;
+}
+@media only screen and (max-width:333px){
+    .d-block{
+        height: 250px;
+        width: 100%;
+        background-repeat: no-repeat;
+       position: relative;
+       /* top: 230px; */
+    }
+    .a1 ,.a2 ,.a3 ,.a4{
+        width: 250px;
+        height: 120px;
+    
+    }
+    .card-body .a1 ,.a2 ,.a3 ,.a4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 40px;
+    }
+    .container4{
+        position: relative;
+       left: 9%;
+    }
+    .carousel-inner{
+        height: 180px;
+    }
+    .nav{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-items: flex-start;
+        justify-content: flex-start; */
+    }
+    .a2 ,.a3 ,.a4 {
+        width: 200px;
+        position: relative;
+       left: -5px;
+       margin-bottom:50px;
+    }
+    .a1{
+        width: 200px;
+        position: relative;
+       left: -5px !important;
+    }
+
+}
+.row{
+    padding-top: 20px;
+}
+@media only screen and (max-width:768px){
+    .d-flex{
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fs-4{
+        /* background-color: aqua; */
+        position: relative;
+        left: 0%;
+       margin-bottom: 30%;
+       font-size: 45px;
+       font-weight: bold;
+    }
+    .d-block{
+        height: 350px;
+        width: 100%;
+        background-repeat: no-repeat;
+       position: relative;
+       /* top: 230px; */
+    }
+    .a1 ,.a2 ,.a3 ,.a4{
+        width: 250px;
+        height: 120px;
+    
+    }
+    .card-body .a1 ,.a2 ,.a3 ,.a4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 40px;
+    }
+    .container4{
+        position: relative;
+       left: 9%;
+    }
+    .carousel-inner{
+        height: 180px;
+    }
+    .nav{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-items: flex-start;
+        justify-content: flex-start; */
+    }
+    .a2 ,.a3 ,.a4 {
+        width: 200px;
+        position: relative;
+       left: -5px;
+       margin-bottom:50px;
+    }
+    .a1{
+        width: 200px;
+        position: relative;
+       left: -5px !important;
+    }
+}
